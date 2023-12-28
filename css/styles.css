@@ -82,6 +82,12 @@ body{
     justify-content: space-between;
     padding: 14px 20px;
     margin-top: 8px;
+    transition: border 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.filter-div:hover,
+.filter-div:focus{
+    border: 1px solid #6D8434;
 }
 
 .input-filter{
